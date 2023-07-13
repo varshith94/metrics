@@ -2,7 +2,7 @@
 apiVersion: rbac.authorization.k8s.io/v1beta1
 kind: RoleBinding
 metadata:
-  name: metrics-server-auth-reader
+  name: metrics-server-auth-readers
   namespace: kube-system
 roleRef:
   apiGroup: rbac.authorization.k8s.io
